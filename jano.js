@@ -1,7 +1,7 @@
 
 const Discord = require("discord.js");
-const myid = ['id xot'] ////////////////////prefix wara 
-const jano = new Discord.Client();
+const myid = ['847884920147804250'] ////////////////////prefix wara 
+const jano = new Discord.Client(844985377306574868);
 const jano2 = new Discord.Client();
 const jano3 = new Discord.Client();
 const jano4 = new Discord.Client();
@@ -217,7 +217,7 @@ const jano200 = new Discord.Client();
 ////////
 jano.on("message", message => {
   if (!message.guild) return;
-  if (message.content === "wara") {
+  if (message.content === "$wara") {
     if (!(message.author.id)) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
@@ -7392,9 +7392,9 @@ jano200.on("ready", () => {
 
 //////////////// tokn lera da bne 
 
-jano.login("");
-jano2.login("");
-jano3.login("");
+jano.login("Copy Token, paste somewhere to see it    ODY1MTk1NDIxNzY4NjEzOTEw.YPAeew.J-o_Or8DyWp9fqZSPK2s9aXwu9w");
+jano2.login("Copy Token, paste somewhere to see it    ODY1MTk0NjQ5OTI3ODExMTAy.YPAd2Q.pW-Ndq86oICUctQAufDT4augfMQ");
+jano3.login("Copy Token, paste somewhere to see it    ODY1MTkzNzE4NDEwOTAzNTcx.YPAc_Q.TxmDCB8Tu1e7QuGQQiwNetBtoQc");
 jano4.login("");
 jano5.login("");
 jano6.login("");
